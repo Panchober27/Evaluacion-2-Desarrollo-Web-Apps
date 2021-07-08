@@ -7,4 +7,9 @@ $(() => {
   const cards = document.querySelectorAll(".card");
   console.log(cards);
   $(cards).addClass("animate__animated animate__jackInTheBox")
+
+
+  
+
+
 })

@@ -14,8 +14,26 @@ h1 {
   color: white;
 }
 
+.card-btn-cont {
+  display: flex;
+  justify-content: center;
+}
+
+/* .card-img-top {
+  height: 150px;
+  width: 250px;
+} */
+
 .btn-primary {
   background: green;
+  border-radius: 30px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background: red;
+  transition: 1s;
 }
 
 .card-title {
