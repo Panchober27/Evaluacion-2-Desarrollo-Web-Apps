@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../components/imports.ejs') %>
+        <link rel="stylesheet" href="css/register.css">
+        <title>Document</title>
+</head>
+
+<body>
+    <%- include('../components/nav.ejs') %>
+        <h1>
+            <%=title%>
+        </h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-container">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="" id="formulario-registro">
+                                    <h5 class="card-title">Formulario de Registro</h5>
+                                    <input class="form-control mt-3" type="text" name="names" id="names"
+                                        placeholder="Nombres">
+                                    <input class="form-control mt-3" type="text" name="lastnames" id="lastnames"
+                                        placeholder="Apellidos">
+                                    <input class="form-control mt-3" type="email" name="email" id="email"
+                                        placeholder="Correo Electronico">
+                                    <input class="form-control mt-3" type="password" name="password" id="password"
+                                        placeholder="Contraseña">
+                                    <div class="f-btn">
+                                        <button type="button" class="btn btn-success mt-3"
+                                            id="btnSub">Registrarme</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('../components/footer.ejs') %>
+            <!-- Jquery Validate. -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+            <!-- JS para traducir los mensajes de las validaciones jquery -->
+            <script src="js/translate.js"></script>
+            <!-- Codigo JS y Jquery para validaciones del formulario. -->
+            <script src="js/register.js"></script>
+
+
+
+
+</body>
+
+</html>

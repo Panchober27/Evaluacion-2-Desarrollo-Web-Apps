@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cal3.css">
+    <link rel="stylesheet" href="css/calendar/evo-calendar.min.css">
+    <%- include('../components/imports.ejs') %>
+        <link rel="stylesheet" href="css/calendar/evo-calendar.midnight-blue-min.css">
+        <title>Document</title>
+</head>
+
+<body>
+    <%- include('../components/nav.ejs') %>
+
+
+        <!-- https://www.youtube.com/watch?v=vNS6ghNsg3c -->
+        <h1>
+            <%= title %>
+        </h1>
+
+        <div class="hero">
+            <div id="calendar"></div>
+        </div>
+
+
+        <%- include('../components/footer.ejs') %>
+
+            <script src="js/calendar/evo-calendar.min.js"></script>
+
+
+            <!-- Esto sera otro archivo de js -->
+            <script>
+                $(document).ready(function () {
+                    $('#calendar').evoCalendar({
+                        theme: "Midnight Blue"
+                        // No esta funcionando :(!!!
+                    });
+                });
+            </script>
+
+</body>
+
+</html>

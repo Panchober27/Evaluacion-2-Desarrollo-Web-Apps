@@ -1,0 +1,46 @@
+/* Archivo de estilos para el formulario de registro en el sitio web. */
+h1 {
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.f-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 40rem;
+  background: rgba(9, 250, 198, 0.692);
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btnSub {
+  width: 20rem;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn-success {
+  border-radius: 30px;
+  background-color: green;
+}
+
+.btn-success:hover {
+  background-color: rgb(4, 241, 4);
+}
+
+
+/* Estilos para los mensjaes de error de las validaciones con jquery. */
+
+.error {
+  color: darkred;
+}

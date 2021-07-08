@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+.animated-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 18rem;
+  background: rgba(19, 0, 104, 0.342);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.btn-primary {
+  background: green;
+}
+
+.card-title {
+  text-align: center;
+}

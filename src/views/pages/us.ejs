@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../components/imports.ejs') %>
+        <link rel="stylesheet" href="css/us.css">
+        <title>Document</title>
+</head>
+
+<body>
+    <%- include('../components/nav.ejs') %>
+
+        <h1>
+            <%= title %>
+        </h1>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body" id="c1">
+                            <h5 class="card-title">Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, ratione.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body" id="c2">
+                            <h5 class="card-title">Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, ratione.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contenedor">
+                <button id="btn" class="btn btn-primary">
+                    DEMO
+                </button>
+            </div>
+
+
+        </div>
+
+
+
+
+        <%- include('../components/footer.ejs') %>
+            <!-- Jquery Mio -->
+            <script src="js/us.js"></script>
+
+
+</body>
+
+</html>

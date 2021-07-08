@@ -1,0 +1,31 @@
+/* Archivo de estilos para la pagina de presentacion. */
+.col-12 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 50rem;
+  background: rgba(0, 4, 255, 0.281);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: 1000ms;
+}
+
+.card:hover {
+  background: rgb(0, 4, 255);
+  box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, 0.2);
+  transition: 1000ms;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  margin-top: 25px;
+  background: red;
+  width: 100px;
+  box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, 0.2);
+}
