@@ -112,7 +112,7 @@ npm run dev
 
 ### Desplegado Remoto 🌎
 
-**Para revisar la app en vivo y sus avances en tiempo real visite** [Sito deployado](https://ev1-web-apps.herokuapp.com/).
+**Para revisar la app en vivo y sus avances en tiempo real visite** [Sito deployado](https://ev2webapps.herokuapp.com/).
 
 *Pronto se incluiran instrucciones para desplegar aplicación en Heroku* 🖥️ ➡️ 🌏
 
