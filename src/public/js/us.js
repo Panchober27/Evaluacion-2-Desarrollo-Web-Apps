@@ -1,23 +1,12 @@
 // Archivo de Jquery para la pagina de presentacion.
 $(() => {
-  $(".card").addClass("animate__animated animate__flipInY")
-  const cards = $(".card")
+  const animatedCard1 = $("#c1")
+  const animatedCard2 = $("#c2")
 
-  const card1 = $("#c1")
-  const card2 = $("#c2")
+  animatedCard1.addClass("animate__animated animate__flipInY")
+  animatedCard2.addClass("animate__animated animate__flipInY")
 
-  const c1txt = $("#ctxt1")
-  const c2txt = $("#ctxt2")
+  $("#draggable").draggable()
 
-  const msg = "Pancho es dios"
-
-
-
-  
-  cards.on("animationend", () => {
-      // card2.innerHTML = "Pancho no es dios"
-      // alert("end of animation")
-      c1txt.text = msg
-  })
 
 })

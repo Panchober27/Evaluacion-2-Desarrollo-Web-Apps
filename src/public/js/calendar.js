@@ -1,0 +1,6 @@
+$(() => {
+
+    $("#datepicker").datepicker()
+
+
+})

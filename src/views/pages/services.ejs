@@ -4,10 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('../components/imports.ejs') %>
     <title>Document</title>
+
+    <style>
+        #head-box{
+            background: rgba(255, 217, 0, 0.63);
+        }
+
+        .card-body {
+            display: flex;
+            justify-content: center;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    </style>
+
 </head>
 <body>
-    
+    <%- include('../components/nav.ejs') %>
+    <h1><%= title %></h1>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="header">
+
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/service1"><img src="https://via.placeholder.com/150" alt="..."></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/service2"><img src="https://via.placeholder.com/150" alt="..."></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/service3"><img src="https://via.placeholder.com/150" alt="..."></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <a href="/service4"><img src="https://via.placeholder.com/150" alt="..."></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card" id="head-box">
+                    <div class="card-body">
+                        <p class="mx-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="mx-2">Lorem ipsum dolor sit amet.</p>
+                        <p class="mx-2">Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <%- include('../components/footer.ejs') %>
     
 </body>
 </html>
