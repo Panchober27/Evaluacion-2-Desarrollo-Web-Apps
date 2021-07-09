@@ -5,52 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%- include('../components/imports.ejs') %>
-    <title>Document</title>
-
-    <style>
-        #head-box{
-            background: rgba(255, 217, 0, 0.63);
-        }
-
-        .card-body {
-            display: flex;
-            justify-content: center;
-        }
-
-        #header {
-            display: flex;
-            justify-content: space-evenly;
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/services.css">
+    <title><%= title %></title>
 </head>
 <body>
     <%- include('../components/nav.ejs') %>
     <h1><%= title %></h1>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid mb-5">
         <div class="row">
             <div class="col-12" id="header">
-
                 <div class="card">
                     <div class="card-body">
+                        <h5 class="card-title">limpiezas</h5>
                         <a href="/service1"><img src="https://via.placeholder.com/150" alt="..."></a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Ortodoncia</h5>
-                        <a href="/service2"><img src="img/ortodoncia.jpg" alt="..."></a>
+                        <a href="/service2"><img src="https://via.placeholder.com/150" alt="..."></a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
+                        <h5 class="card-title">Protesis</h5>
                         <a href="/service3"><img src="https://via.placeholder.com/150" alt="..."></a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body">
+                        <h5 class="card-title">Urgencias</h5>
                         <a href="/service4"><img src="https://via.placeholder.com/150" alt="..."></a>
                     </div>
                 </div>
@@ -61,8 +47,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="card" id="head-box">
-                    <div class="card-body">
+                <div class="card">
+                    <div class="card-body" id="head-box">
                         <p class="mx-2">Lorem ipsum dolor sit amet.</p>
                         <p class="mx-2">Lorem ipsum dolor sit amet.</p>
                         <p class="mx-2">Lorem ipsum dolor sit amet.</p>
@@ -77,6 +63,7 @@
 
 
     <%- include('../components/footer.ejs') %>
+    <script src="js/services.js"></script>
     
 </body>
 </html>

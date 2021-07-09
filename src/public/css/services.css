@@ -1,0 +1,13 @@
+#head-box {
+  background: rgba(255, 217, 0, 0.63);
+}
+
+/* .card-body {
+  display: flex;
+  justify-content: center;
+} */
+
+#header {
+  display: flex;
+  justify-content: space-evenly;
+}
