@@ -1,6 +1,5 @@
+// Usar draggable para dar efecto a los cosos.
 $(() => {
-
-    const cards = $('.card')
-    
-
+    $('#draggable').draggable()
+    $('.js-modal-btn').modalVideo()
 })
