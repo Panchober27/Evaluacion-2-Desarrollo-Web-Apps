@@ -1,0 +1,23 @@
+.card {
+  background: rgba(19, 3, 235, 0.438);
+  transition: 0.7s;
+}
+
+.card-title {
+  font-size: xx-large;
+}
+
+.card-subtitle {
+  color: rgba(5, 0, 0, 0.753);
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: white;
+}
+
+.card:hover {
+  background: rgba(19, 3, 235, 0.925);
+  transition: 0.7s;
+}
